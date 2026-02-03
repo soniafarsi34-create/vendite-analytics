@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Vendite Analytics</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+</head>
+
+<body>
+
+<h1>📊 Vendite Analytics</h1>
+
+<div class="controls">
+  <select id="meseFilter"></select>
+  <select id="annoFilter"></select>
+</div>
+
+<div class="charts">
+  <canvas id="lineChart"></canvas>
+  <canvas id="barChart"></canvas>
+  <canvas id="pieChart"></canvas>
+  <canvas id="scatterChart"></canvas>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
